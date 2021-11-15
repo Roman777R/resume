@@ -104,7 +104,7 @@ main .titleText{
 }
 
 main .firstBlock{
-  margin-top: 30px;
+  margin-top: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -130,7 +130,7 @@ main .rightBlock{
   text-align: center;
 }
 
-main .secondBlock, main .thirdBlock, main .fourthBlock{
+main .secondBlock, main .thirdBlock, main .fourthBlock, main .fivethBlock, main .sixthBlock{
   margin-top: 70px;
   display: flex;
   justify-content: space-between;
@@ -143,4 +143,8 @@ main .secondBlock .leftBlock_2{
 
 main .fourthBlock .leftBlock_3{
   width: 600px;
+}
+
+.sixthBlock{
+  padding-bottom: 50px;
 }
