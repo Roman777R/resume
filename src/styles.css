@@ -13,10 +13,10 @@ body{
   background-image: url(../img/abstract-colorful-lines-background-design_1017-16204.jpg);
   background-size: 100%;
   width: 100%;
-  height: 800px;
+  height: 600px;
 }
 
-.wrapper{
+header .wrapper{
   width: 100%;
   max-width: 990px;
   margin: 0 auto;
@@ -73,4 +73,74 @@ body{
   background-color: white;
   color: black;
   padding: 10px;
+}
+
+/* header end */
+
+/* main start */
+
+main .wrapper{
+  width: 100%;
+  max-width: 990px;
+  margin: 0 auto;
+}
+
+main{
+  color: black;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+}
+
+main .myBusinessIdia{
+  margin-top: 50px;
+}
+
+main .titleText{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+main .firstBlock{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .rightBlock{
+  width: 600px;
+  align-content: center;
+}
+
+.price{
+  display: block;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  padding: 10px 30px;
+  border: 1px solid #333333;
+  width: 100px;
+  text-transform: none;
+  text-decoration: none;
+  margin-top: 30px;
+  background-color: #333333;
+  color: white;
+  text-align: center;
+}
+
+main .secondBlock, main .thirdBlock, main .fourthBlock{
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+main .secondBlock .leftBlock_2{
+  width: 600px;
+  align-content: center;
+}
+
+main .fourthBlock .leftBlock_3{
+  width: 600px;
 }
